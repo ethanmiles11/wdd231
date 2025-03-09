@@ -1,0 +1,218 @@
+:root {
+    --color1: #2CA758;
+    --color2: #657469;
+    --color3: #33BF58;
+    --color4: #0F4000;
+    --color5: #0D0D0D;
+    --color6: #07ed45;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    background-color: black;
+}
+
+#headerContent {
+    display: grid;
+    max-width: 90%;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1rem;
+}
+
+#headerContent img {
+    width: 100%;
+    height: auto;
+    max-width: 185px;
+}
+
+#headerContent p {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 6vw;
+    font-weight: 500;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    padding: 0.5rem;
+}
+
+
+#menu {
+    font-size: 2.5rem;
+	border: 0;
+	background: none;
+	color: var(--color6);
+    position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.open a {
+    display: block;
+}
+
+.active {
+    background-color: var(--color6);
+    color: black;
+}
+
+nav {
+    background-color: var(--color1);
+}
+
+nav a {
+    display: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: var(--color2);
+    color: black;
+    transition: 0.4s;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    padding-top: 1rem;
+}
+
+#courseWork {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    background-color: black;
+    color: #07ed45;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+ul {
+    padding-left: 0;
+    padding-inline-start: 20px;
+    border: 1px solid #07ed45;
+    border-top: none;
+}
+
+#utahImage {
+    border: 1px solid var(--color6);
+    border-top: none;
+}
+
+#utahImage img{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 400;
+}
+
+.courseCard {
+    display: block;
+    padding: 1rem;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+h3:hover {
+    background-color: var(--color6);
+    color: black;
+}
+
+.completed h3:hover {
+    background-color: var(--color6);
+    color: black;
+}
+
+.completed h3 {
+    background-color: #284d32;
+    color: white;
+}
+
+#buttonsSect {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.85rem;
+}
+
+#buttonsSect button {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#credits {
+    display: block;
+    max-width: 75%;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
