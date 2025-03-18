@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Tech Innovations",
+      "address": "1234 Tech Avenue, Lehi UT",
+      "phone": "(385)555-1234",
+      "website": "www.tech.lehi.com",
+      "image": "images/tech-logo.jpg",
+      "membershipLevel": 1,
+      "rating": 4.5
+    },
+    {
+      "name": "Green Energy Solutions",
+      "address": "5678 Green Street, Lehi UT",
+      "phone": "(385)555-5678",
+      "website": "www.greenlehi.com",
+      "image": "images/greenenergy-logo.jpg",
+      "membershipLevel": 2,
+      "rating": 4.0
+    },
+    {
+      "name": "HealthCare Partners",
+      "address": "9876 Wellness Rd, Lehi UT",
+      "phone": "(385)555-9876",
+      "website": "www.healthcare.lehi.com",
+      "image": "images/healthcare-logo.jpg",
+      "membershipLevel": 3,
+      "rating": 5.0
+    },
+    {
+      "name": "Smart Retail Co.",
+      "address": "4321 Retail Blvd, Lehi UT",
+      "phone": "(385)555-4321",
+      "website": "www.shopsmart.com",
+      "image": "images/retail-logo.jpg",
+      "membershipLevel": 1,
+      "rating": 3.8
+    },
+    {
+      "name": "Foodie Enterprises",
+      "address": "2468 Tasty Ave, Lehi UT",
+      "phone": "(385)555-2468",
+      "website": "www.foodie.lehi.com",
+      "image": "images/foodie-logo.jpg",
+      "membershipLevel": 2,
+      "rating": 4.2
+    },
+    {
+      "name": "Urban Construction",
+      "address": "1357 Build St, Lehi UT",
+      "phone": "(385)555-1357",
+      "website": "www.construction.lehi.com",
+      "image": "images/construction-logo.jpg",
+      "membershipLevel": 3,
+      "rating": 4.8
+    },
+    {
+      "name": "Busy Bee Fiber",
+      "address": "8642 Transport Dr, Lehi UT",
+      "phone": "(385)555-8642",
+      "website": "www.busybeefiber.com",
+      "image": "images/busybee-logo.jpg",
+      "membershipLevel": 1,
+      "rating": 4.3
+    }
+]
+  

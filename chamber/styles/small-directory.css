@@ -1,0 +1,260 @@
+:root {
+    --primary-color: #045442;
+    --secondary-color: #EFF1C5;
+    --accent1-color: #84CAE7;
+    --accent2-color: #D3C0D2;
+    --accent3-color: #815355;
+    --accent4-color: #77A0A9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    max-width: 82%;
+    padding: 0.5rem;
+    justify-items: center;
+}
+
+#logo p, h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#logo img {
+    border-radius: 6px;
+}
+
+#logoDiv {
+    padding-left: 0.5rem;
+}
+
+#logo p {
+    font-weight: 400;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#menu {
+    font-size: 2.5rem;
+	border: 0;
+	background: none;
+	color: var(--secondary-color);
+	position: absolute;
+	top: 1rem;
+	right: 0.65rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+    color: red;
+    font-weight: 600;
+}
+
+nav a {
+    display: none;
+    color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 1rem;
+}
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: black;
+    transition: 0.5s;
+}
+
+.open a {
+    display: block;
+}
+
+#mainHeading {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 95%;
+    gap: 1.75rem;
+}
+
+#buttonHolder {
+    display: flex;
+    align-items: center;
+}
+
+#buttonHolder p {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+h2 {
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.changeButton {
+    color: black;
+    height: 35%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.changeButton:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.activeButton {
+    background-color: rgba(128, 194, 209, 0.5);
+}
+
+#membersList {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 2.5rem;
+    place-items: center;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+    margin-top: 0.5rem;
+}
+
+.companyCard {
+    border: 1px solid rgb(224, 223, 223);
+    width: 300px;
+    text-align: center;
+    background-color: rgb(241, 237, 237);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.companyCard img {
+    height: 200px;
+    width: auto;
+}
+
+.companyCard:hover {
+    box-shadow: 0 0 50px #045442;
+    transition: 0.37s;
+    background-color: #EFF1C5;
+    transform: translateY(-6px);
+}
+
+.companyCard h3 {
+    font-size: 1.3rem;
+}
+
+.companyCard p {
+    font-weight: 400;
+}
+
+#listView {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 99%;
+    margin-bottom: 5rem;
+}
+
+#listView img {
+    display: none;
+}
+
+#listView .companyCard {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#listView .companyCard .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#listView .companyCard h3{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+#listView .companyCard p{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footerGroup {
+    max-width: fit-content;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footerGroup p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.imageLinks {
+    display: flex;
+}
+
+.imageLinks img{
+    margin: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+#footerContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 92%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footerBold {
+    font-weight: 700;
+    font-size: 1.3rem;
+}

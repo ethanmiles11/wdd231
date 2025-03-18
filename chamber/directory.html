@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lehi City - Chamber of Commerce Ethan Miles</title>
+    <meta name="description" content="Ethan Miles chamber of commerce directory page for WDD 231 - Web Frontend Development-1 class.">
+    <meta name="author" content="Ethan Miles">
+    <link rel="icon" href="favicon (2).ico">
+    <meta property="og:title" content="Ethan Miles WDD231 Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://livability.com/wp-content/uploads/2024/04/2024-best-places-to-live-colorado-springs-co-livability-1-768x512.jpg.webp">
+    <meta property="og:url" content="https://ethanmiles11.github.io/wdd231/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-directory.css" media="screen and (max-width: 899px)">
+    <link rel="stylesheet" href="styles/large-directory.css" media="screen and (min-width: 900px)">
+    <script src="scripts/directory.js" defer></script>
+</head>
+
+<body>
+
+    <header class="roboto-regular">
+        <section id="headerGrid">
+            <section id="logo">
+                <img src="images/lehi-logo.jpg" alt="Lehi City 'LC' Logo">
+                <div id="logoDiv">
+                    <h1>Lehi City</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </section>
+            <button type="button" id="menu" aria-label="Menu button"></button>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#" class="active">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Discover</a>
+            </nav>
+        </section>
+    </header>
+
+    <main class="roboto-regular">
+        <section id="mainHeading">
+            <h2>Directory</h2>
+            <div id="buttonHolder">
+                <button class="changeButton activeButton" id="gridButton">Grid</button>
+                <p>|</p>
+                <button class="changeButton" id="listButton">List</button>
+            </div>
+        </section>
+        <div id="membersList"></div>
+    </main>
+
+    <footer class="roboto-regular">
+        <div id="footerContainer">
+            <section class="footerGroup">
+                <p id="footerBold">Lehi City Chamber of Commerce</p>
+                <p>998 Fake Ln</p>
+                <p>Lehi, UT 84043</p>
+                <p>info@lcfake.org</p>
+                <p>(801)999-8877</p>
+            </section>
+            <section class="footerGroup imageLinks">
+                <a href="https://x.com/?lang=en" target="_blank"><img src="images/twitter-logo.png" alt="Twitter Link"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo.png" alt="Youtube Link"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Link"></a>
+            </section>
+            <section class="footerGroup">
+                <p>WDD231 Class Project</p>
+                <p>Ethan Miles</p>
+                <p>&copy;<span id="currentyear"></span> Lehi City Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </section>
+        </div>
+    </footer>
+
+</body>
+
+</html>
