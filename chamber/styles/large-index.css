@@ -244,6 +244,11 @@ h3 {
     letter-spacing: 2px;
 }
 
+#eventsContainer li {
+    padding: 0.5rem;
+    font-weight: 400;
+}
+
 #current-weather {
     display: flex;
 }
