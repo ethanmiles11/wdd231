@@ -201,11 +201,6 @@ h2 {
     margin-bottom: 1.3rem;
 }
 
-.weatherIcon {
-    width: 75px;
-    height: 75px;
-}
-
 #mainHolder {
     display: flex;
     justify-content: space-between;

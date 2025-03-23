@@ -178,11 +178,6 @@ h2 {
     padding-top: 10px;
 }
 
-.weatherIcon {
-    width: 75px;
-    height: 75px;
-}
-
 #mainHolder {
     margin: 0 auto;
     max-width: 410px;
