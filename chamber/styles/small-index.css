@@ -153,7 +153,7 @@ footer {
     font-weight: 500;
     font-size: 150%;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #00A1E4 50%, #eb5a50 50%);
+    background-image: linear-gradient(to right, #99191c 50%, #eb5a50 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     color: white;
@@ -274,6 +274,7 @@ h3 {
     margin: 0;
     padding: 0.45rem;
     font-weight: 400;
+    color: black;
 }
 
 .card:hover {
