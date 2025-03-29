@@ -1,0 +1,352 @@
+/* ALL HEADER/FOOTER CONTENT SMALL */
+:root {
+    --primary-color: #045442;
+    --secondary-color: #EFF1C5;
+    --accent1-color: #84CAE7;
+    --accent2-color: #D3C0D2;
+    --accent3-color: #815355;
+    --accent4-color: #77A0A9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    max-width: 82%;
+    padding: 0.5rem;
+    justify-items: center;
+}
+
+#logo p, h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#logo img {
+    border-radius: 6px;
+}
+
+#logoDiv {
+    padding-left: 0.5rem;
+}
+
+#logo p {
+    font-weight: 400;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#menu {
+    font-size: 2.5rem;
+	border: 0;
+	background: none;
+	color: var(--secondary-color);
+	position: absolute;
+	top: 1rem;
+	right: 0.65rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+    color: red;
+    font-weight: 600;
+}
+
+nav a {
+    display: none;
+    color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 1rem;
+}
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: black;
+    transition: 0.5s;
+}
+
+.open a {
+    display: block;
+}
+
+.footerGroup {
+    max-width: fit-content;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footerGroup p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.imageLinks {
+    display: flex;
+}
+
+.imageLinks img{
+    margin: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+#footerContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 92%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footerBold {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+/* ----------END OF HEADER/FOOTER---------- */
+main {
+    max-width: 97%;
+    margin: 0 auto;
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
+}
+
+#applicationForm {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.webForm {
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 0.5rem 0rem 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgba(239, 241, 197, 0.75);
+}
+
+.webForm label {
+    display: block;
+    padding-top: 1.7rem;
+    font-size: 1rem;
+    font-weight: 410;
+    padding-bottom: 0.2rem;
+}
+
+.webForm select,
+.webForm input[type="tel"],
+.webForm input[type="email"],
+.webForm input[type="text"] {
+    display: block;
+    background-color: rgb(241, 236, 236);
+    width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    resize: none;
+    border: 1px solid black;
+    padding-left: 0.5rem;
+    padding-right: 2.5rem;
+}
+
+.webForm textarea {
+    display: block;
+    background-color: rgb(241, 236, 236);
+    width: 100%;
+    height: 6rem;
+    font-size: 1rem;
+    resize: none;
+    border: 1px solid black;
+    padding-left: 0.4rem;
+    margin-top: 0.2rem;
+}
+
+input[type="submit"] {
+    display: none;
+    cursor: pointer;
+}
+
+#submitButton {
+    display: block;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    background-color: #eb5a50;
+    cursor: pointer;
+}
+
+#submitButton:hover {
+    color: black;
+}
+
+.webForm input[type="text"]:required,
+.webForm input[type="email"]:required,
+.webForm input[type="tel"]:required,
+select:required {
+    border-left: 8px solid red;
+}
+
+.webForm input[type="text"]:required:valid,
+select:required:valid {
+    border-left: 8px solid green;
+}
+
+.optionalSpan {
+    color: blue;
+    font-size: 1rem;
+}
+
+.membership-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    opacity: 0;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 8px;
+    max-width: 500px;
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: lightgrey;
+    transform: translateY(50px); /* Start below the viewport */
+    opacity: 0;
+    transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.card h4 {
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+
+.card button {
+    font-weight: 500;
+    padding: 0.2rem 1rem;
+}
+
+.card button:hover {
+    cursor: pointer;
+}
+
+/* Staggered animation on page load */
+.card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Adding slight delay to create a staggered float effect */
+.card:nth-child(1) {
+transition-delay: 0.2s;
+}
+.card:nth-child(2) {
+transition-delay: 0.4s;
+}
+.card:nth-child(3) {
+transition-delay: 0.6s;
+}
+.card:nth-child(4) {
+transition-delay: 0.8s;
+}
+
+#npCard {
+    background-color: transparent;
+}
+
+#bronzeCard {
+    background-color: rgba(205, 127, 50, 0.6);
+}
+
+#silverCard {
+    background-color: rgba(192, 192, 192, 0.7);
+}
+
+#goldCard {
+    background-color: rgba(255, 215, 0, 0.6);
+}
+
+#npDialog {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#bronzeDialog {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#silverDialog{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#goldDialog{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    transition: backdrop-filter 0.3s ease;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lehi City - Chamber of Commerce - Join Page</title>
+    <meta name="description" content="Ethan Miles Lehi City Chamber of Commerce join page for WDD 231 - Page designed to allow prospective members to apply to join the chamber of commerce.">
+    <meta name="author" content="Ethan Miles">
+    <link rel="icon" href="favicon(2).ico">
+    <meta property="og:title" content="Ethan Miles Chamber of Commerce Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,q_75,w_1200/v1/crm/utahvalley/lehicity0_3032efc0-5056-a36a-0b76c692ba14f9dd.jpg">
+    <!-- <meta property="og:url" content="https://ethanmiles11.github.io/wdd231/chamber/index"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-join.css" media="screen and (max-width: 919px)">
+    <link rel="stylesheet" href="styles/large-join.css" media="screen and (min-width: 920px)">
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header class="roboto-regular">
+        <section id="headerGrid">
+            <section id="logo">
+                <img src="images/lehi-logo.jpg" alt="Lehi City 'LC' Logo">
+                <div id="logoDiv">
+                    <h1>Lehi City</h1>
+                    <p>Chamber of Commerce</p>
+                </div>
+            </section>
+            <button type="button" id="menu" aria-label="Menu button"></button>
+            <nav>
+                <a href="#">Home</a>
+                <a href="directory.html">Directory</a>
+                <a href="#" class="active">Join</a>
+                <a href="#">Discover</a>
+            </nav>
+        </section>
+    </header>
+
+    <main class="roboto-regular">
+        <h2>Join Lehi's Chamber</h2>
+        <div class="contentContainer">
+            <div id="applicationForm">
+                <h3>Membership Application Form</h3>
+                <form action="thankyou.html" method="get" class="webForm">
+        
+                    <!-- First Name -->
+                    <label>First Name:<span class="requiredSymbol"> *</span>
+                        <input type="text" name="fname" id="firstname" autocomplete="given-name" required>
+                    </label>
+                
+                    <!-- Last Name -->
+                    <label>Last Name:<span class="requiredSymbol"> *</span>
+                        <input type="text" name="lname" id="lastname" autocomplete="family-name" required>
+                    </label>
+                
+                    <!-- Organizational Title -->
+                    <label>Organizational Title:<span class="optionalSpan"> (Optional)</span>
+                        <input type="text" name="orgtitle" id="orgtitle" autocomplete="organization-title" pattern="^[a-zA-Z\s\-]{7,}$" placeholder="e.g., Senior Manager">
+                    </label>
+                
+                    <!-- Email Address -->
+                    <label>Email:<span class="requiredSymbol"> *</span>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="example@email.com" required>
+                    </label>
+                
+                    <!-- Phone Number -->
+                    <label>Mobile Phone:<span class="requiredSymbol"> *</span>
+                        <input type="tel" name="phone" id="phone" autocomplete="tel" required>
+                    </label>
+                
+                    <!-- Business/Organization's Name -->
+                    <label>Organization Name:<span class="requiredSymbol"> *</span>
+                        <input type="text" name="organization" id="organization" autocomplete="organization" required>
+                    </label>
+                
+                    <!-- Membership Level -->
+                    <label>Membership Level:<span class="requiredSymbol"> *</span>
+                        <select name="membership" id="membership" required>
+                            <option value="" disabled selected>Select Membership...</option>
+                            <option value="np">NP Membership (No Fee)</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                
+                    <!-- Business/Organization Description -->
+                    <label>Organization Description:<span class="optionalSpan"> (Optional)</span>
+                        <textarea name="description" id="description" placeholder="Describe your organization..."></textarea>
+                    </label>
+                
+                    <!-- Timestamp (Hidden Field) -->
+                    <input type="hidden" id="timestamp" name="timestamp">
+                
+                    <!-- Submit Button -->
+                    <input type="submit" value="Submit My Application" id="submitButton">
+                </form>
+            </div>
+            
+            <!-- Membership Cards -->
+            <div class="membership-cards">
+                <!-- NP Membership -->
+                <div class="card" id="npCard">
+                    <h4>NP Membership</h4>
+                    <button onclick="document.getElementById('npDialog').showModal()">More Info</button>
+                </div>
+            
+                <!-- Bronze Membership -->
+                <div class="card" id="bronzeCard">
+                    <h4>Bronze Membership</h4>
+                    <button onclick="document.getElementById('bronzeDialog').showModal()">More Info</button>
+                </div>
+            
+                <!-- Silver Membership -->
+                <div class="card" id="silverCard">
+                    <h4>Silver Membership</h4>
+                    <button onclick="document.getElementById('silverDialog').showModal()">More Info</button>
+                </div>
+            
+                <!-- Gold Membership -->
+                <div class="card" id="goldCard">
+                    <h4>Gold Membership</h4>
+                    <button onclick="document.getElementById('goldDialog').showModal()">More Info</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dialog Modals -->
+        <dialog id="npDialog" onclick="closeOnOutsideClick(event, 'npDialog')">
+            <h4>NP Membership Benefits</h4>
+            <ul>
+                <li>No membership fee for non-profits</li>
+                <li>Access to limited events</li>
+                <li>Basic training sessions</li>
+                <li>Community support</li>
+            </ul>
+            <button onclick="document.getElementById('npDialog').close()">Close</button>
+        </dialog>
+        
+        <dialog id="bronzeDialog" onclick="closeOnOutsideClick(event, 'bronzeDialog')">
+            <h4>Bronze Membership Benefits</h4>
+            <ul>
+                <li>Low-cost membership</li>
+                <li>Access to more events</li>
+                <li>Some event discounts</li>
+                <li>Networking opportunities</li>
+            </ul>
+            <button onclick="document.getElementById('bronzeDialog').close()">Close</button>
+        </dialog>
+        
+        <dialog id="silverDialog" onclick="closeOnOutsideClick(event, 'silverDialog')">
+            <h4>Silver Membership Benefits</h4>
+            <ul>
+                <li>Event discounts</li>
+                <li>Advertising opportunities</li>
+                <li>Expanded networking</li>
+                <li>Enhanced training</li>
+            </ul>
+            <button onclick="document.getElementById('silverDialog').close()">Close</button>
+        </dialog>
+        
+        <dialog id="goldDialog" onclick="closeOnOutsideClick(event, 'goldDialog')">
+            <h4>Gold Membership Benefits</h4>
+            <ul>
+                <li>Maximum exposure on home page</li>
+                <li>Spotlight positions</li>
+                <li>VIP event access</li>
+                <li>Premium discounts</li>
+            </ul>
+            <button onclick="document.getElementById('goldDialog').close()">Close</button>
+        </dialog>
+
+    </main>
+
+    <footer class="roboto-regular">
+        <div id="footerContainer">
+            <section class="footerGroup">
+                <p id="footerBold">Lehi City Chamber of Commerce</p>
+                <p>998 Fake Ln</p>
+                <p>Lehi, UT 84043</p>
+                <p>info@lcfake.org</p>
+                <p>(801)999-8877</p>
+            </section>
+            <section class="footerGroup imageLinks">
+                <a href="https://x.com/?lang=en" target="_blank"><img src="images/twitter-logo.png" alt="Twitter Link"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube-logo.png" alt="Youtube Link"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin-logo.png" alt="LinkedIn Link"></a>
+            </section>
+            <section class="footerGroup">
+                <p>WDD231 Class Project</p>
+                <p>Ethan Miles</p>
+                <p>&copy;<span id="currentyear"></span> Lehi City Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </section>
+        </div>
+    </footer>
+    
+</body>
+</html>
