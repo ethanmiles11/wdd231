@@ -257,6 +257,8 @@ select:required {
 }
 
 .webForm input[type="text"]:required:valid,
+.webForm input[type="tel"]:required:valid,
+.webForm input[type="email"]:required:valid,
 select:required:valid {
     border-left: 8px solid green;
 }

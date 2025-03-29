@@ -1,0 +1,173 @@
+/* ALL HEADER/FOOTER CONTENT SMALL */
+:root {
+    --primary-color: #045442;
+    --secondary-color: #EFF1C5;
+    --accent1-color: #84CAE7;
+    --accent2-color: #D3C0D2;
+    --accent3-color: #815355;
+    --accent4-color: #77A0A9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
+#logo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    max-width: 82%;
+    padding: 0.5rem;
+    justify-items: center;
+}
+
+#logo p, h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#logo img {
+    border-radius: 6px;
+}
+
+#logoDiv {
+    padding-left: 0.5rem;
+}
+
+#logo p {
+    font-weight: 400;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#menu {
+    font-size: 2.5rem;
+	border: 0;
+	background: none;
+	color: var(--secondary-color);
+	position: absolute;
+	top: 1rem;
+	right: 0.65rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+    color: red;
+    font-weight: 600;
+}
+
+nav a {
+    display: none;
+    color: var(--secondary-color);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 1rem;
+}
+nav a:hover {
+    background-color: var(--secondary-color);
+    color: black;
+    transition: 0.5s;
+}
+
+.open a {
+    display: block;
+}
+
+.footerGroup {
+    max-width: fit-content;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footerGroup p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.imageLinks {
+    display: flex;
+}
+
+.imageLinks img{
+    margin: 1rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+}
+
+#footerContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width: 92%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#footerBold {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+/* ----------END OF HEADER/FOOTER---------- */
+.content {
+    max-width: 90%;
+    margin: 1rem auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#feedback {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 400;
+    max-width: 700px;
+    margin: auto;
+}
+
+#form-data {
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+#form-data p {
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 400;
+}
