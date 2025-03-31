@@ -1,0 +1,116 @@
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.one {
+    border: 1px solid black;
+    background-color: #32174D;
+    margin: 1rem;
+}
+
+.one p {
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.two {
+    border: 1px solid black;
+    background-color: #32174D;
+    margin: 1rem;
+}
+
+.two p {
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.three {
+    border: 1px solid black;
+    background-color: #32174D;
+    margin: 1rem;
+}
+
+.three p {
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.four {
+    border: 1px solid red;
+    background-color: #0D0D0D;
+    margin: 1rem;
+}
+
+.four h3 {
+    background-color: #ffae00;
+    color: black;
+}
+
+.four p {
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+.five {
+    border: 1px solid black;
+    background-color: #32174D;
+    margin: 1rem;
+}
+
+.five p {
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.six {
+    border: 1px solid black;
+    background-color: #32174D;
+    margin: 1rem;
+}
+
+.six p {
+    font-weight: 500;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+a {
+    color: white;
+}
+
+.number {
+    background-color: #645394;
+    max-width: fit-content;
+    padding: 1rem;
+    margin-left: 1rem;
+    color: white;
+}
+
+#audiowide {
+    font-size: 1.5rem;
+}
