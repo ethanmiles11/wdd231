@@ -97,10 +97,12 @@ main {
     color: white;
     padding: 1rem;
     margin: 0;
+    text-align: center;
 }
 
-a {
-    color: white;
+img {
+    margin: 0 auto;
+    display: block;
 }
 
 .number {
