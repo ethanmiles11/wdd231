@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+
 // Fetch the tips data
 async function fetchTipsData() {
     try {
@@ -57,6 +59,7 @@ async function fetchTipsData() {
     const img = document.getElementById('rankImage');
     img.src = `images/${rank || 'na-logo'}.png`;
     img.alt = rank ? `${rank} rank logo` : 'No Rank selected';
+    img.loading = "lazy";
   }
   
   // Set the rank in localStorage

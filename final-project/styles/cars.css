@@ -1,0 +1,172 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #FF6600;
+    --background-color: #3f3e3e;
+    --header-color: #0e2d4e;
+    --background2-color: #4b4949;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 300px;
+}
+
+main {
+    background-color: #3f3e3e;
+    max-width: 400px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #0e2d4e;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    padding: 1rem;
+    font-size: 2.3rem;
+    margin-top: 0;
+}
+
+nav a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+nav a:hover {
+    background-color: #FF6600;
+}
+
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: var(--secondary-color);
+    position: absolute;
+    max-width: 50px;
+    top: 10px;
+    right: 1.5rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "🟧";
+}
+
+#menu.open::after {
+    content: "X";
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    color: var(--primary-color);
+}
+
+.open a {
+    display: block;
+}
+
+.background {
+    background-color: #3f3e3e;
+}
+
+footer {
+    background-color: #0e2d4e;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 6rem;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+
+
+#cars-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+/* Styling for individual car cards */
+.car-card {
+    background-color: rgb(168, 205, 245);
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 123, 255, 0.5);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.5s, transform 0.5s, box-shadow 0.4s;
+}
+
+.car-image {
+    width: 200px;
+    height: auto;
+}
+
+.car-name {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.car-description {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.car-pros, .car-cons {
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+.car-pros li, .car-cons li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+#intro {
+    display: block;
+    width: 87%;
+    margin: auto;
+    padding-bottom: 2rem;
+    font-size: 1.25rem;
+    color: white;
+}

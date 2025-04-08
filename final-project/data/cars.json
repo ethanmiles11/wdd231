@@ -1,0 +1,198 @@
+[
+    {
+      "name": "Octane",
+      "image": "images/octane.jpg",
+      "description": "The Octane is one of the most popular cars in Rocket League. Known for its balanced hitbox and versatility, it is favored by many professional players.",
+      "pros": [
+        "Balanced hitbox",
+        "Versatile for all playstyles"
+      ],
+      "cons": [
+        "Not the fastest car",
+        "Slightly weaker hitbox in certain situations"
+      ]
+    },
+    {
+      "name": "Dominus",
+      "image": "images/dominus.jpg",
+      "description": "The Dominus is a flat, sleek car that is great for flicks and dribbles, often chosen by players who prefer a more control-oriented playstyle.",
+      "pros": [
+        "Great for flicks and dribbles",
+        "Wide hitbox for precise ball control"
+      ],
+      "cons": [
+        "Can be hard to control in tight situations",
+        "Slower aerial mobility"
+      ]
+    },
+    {
+      "name": "Batmobile",
+      "image": "images/batmobile.jpg",
+      "description": "The Batmobile is a long car with a low profile, providing excellent stability and control. It's perfect for fast and smooth ground play.",
+      "pros": [
+        "Low profile for easier ball control",
+        "Good for fast ground play"
+      ],
+      "cons": [
+        "Awkward in aerials",
+        "Limited mobility compared to other cars"
+      ]
+    },
+    {
+      "name": "Fennec",
+      "image": "images/fennec.jpg",
+      "description": "The Fennec is a boxy car with a similar hitbox to the Octane. It's popular for its tight turns and ability to make precise hits.",
+      "pros": [
+        "Compact and easy to control",
+        "Great for quick turns and accurate shots"
+      ],
+      "cons": [
+        "Slower than some other cars in terms of speed",
+        "May feel clunky for some players"
+      ]
+    },
+    {
+      "name": "Endo",
+      "image": "images/endo.jpg",
+      "description": "The Endo features a low and wide profile, making it ideal for precise control and solid dribbling. It’s especially effective in tight spaces.",
+      "pros": [
+        "Wide hitbox for dribbling",
+        "Great for control in tight spaces"
+      ],
+      "cons": [
+        "Lack of speed compared to other cars",
+        "Not as agile in aerials"
+      ]
+    },
+    {
+      "name": "Takumi",
+      "image": "images/takumi.jpg",
+      "description": "The Takumi is a car with a unique design and a balanced hitbox, offering good control and versatility for players who enjoy both aerial and ground play.",
+      "pros": [
+        "Good control on both ground and aerial",
+        "Solid hitbox for consistent touches"
+      ],
+      "cons": [
+        "Slow compared to other cars",
+        "Not ideal for speed-focused playstyles"
+      ]
+    },
+    {
+      "name": "Mantis",
+      "image": "images/mantis.jpg",
+      "description": "The Mantis is a sleek and unique car with great speed and turning radius, making it ideal for quick movements and aerial shots.",
+      "pros": [
+        "High speed and agility",
+        "Great for aerial control"
+      ],
+      "cons": [
+        "Awkward hitbox for ground play",
+        "Not the most stable in tight situations"
+      ]
+    },
+    {
+      "name": "Zippy",
+      "image": "images/zippy.jpg",
+      "description": "The Zippy is a small, fast car with an extremely high top speed. It excels in quick movements but sacrifices control in certain situations.",
+      "pros": [
+        "Very fast",
+        "Great for high-speed plays"
+      ],
+      "cons": [
+        "Lack of control at high speeds",
+        "Difficult to handle in aerials"
+      ]
+    },
+    {
+      "name": "Hotshot",
+      "image": "images/hotshot.jpg",
+      "description": "The Hotshot is a fast, aggressive car that excels in attacking situations. It's known for its high speed and maneuverability.",
+      "pros": [
+        "High speed",
+        "Great for aggressive attacking"
+      ],
+      "cons": [
+        "Poor control in tight spaces",
+        "Limited aerial ability"
+      ]
+    },
+    {
+      "name": "Road Hog",
+      "image": "images/roadhog.jpg",
+      "description": "The Road Hog is a bulky car with great power and strength. It excels at bumping and physical play, making it a great option for demolition-focused strategies.",
+      "pros": [
+        "Great for physical plays",
+        "Strong in 50/50s"
+      ],
+      "cons": [
+        "Slow and clunky",
+        "Hard to maneuver in tight spots"
+      ]
+    },
+    {
+      "name": "Merc",
+      "image": "images/merc.jpg",
+      "description": "The Merc is a large and slow vehicle with a unique hitbox. It's best known for its durability and strong presence in physical plays.",
+      "pros": [
+        "Large hitbox for physical plays",
+        "Can easily block shots"
+      ],
+      "cons": [
+        "Extremely slow",
+        "Limited agility and aerial ability"
+      ]
+    },
+    {
+      "name": "Jager 619",
+      "image": "images/jager.jpg",
+      "description": "The Jager 619 is a sleek, sporty car that offers good control and speed, making it ideal for players who prefer a mix of ground and aerial play.",
+      "pros": [
+        "Good speed and agility",
+        "Solid in both ground and aerial"
+      ],
+      "cons": [
+        "Can be hard to control at high speeds",
+        "Larger hitbox in comparison to others"
+      ]
+    },
+    {
+      "name": "Nimbus",
+      "image": "images/nimbus.jpg",
+      "description": "The Nimbus is a stylish car with a smooth design, perfect for fast plays and strong aerial shots.",
+      "pros": [
+        "Excellent speed",
+        "Good for aerial shots"
+      ],
+      "cons": [
+        "Not as good for dribbling",
+        "Limited control at ground level"
+      ]
+    },
+    {
+      "name": "Paladin",
+      "image": "images/paladin.jpg",
+      "description": "The Paladin is a unique car with a solid hitbox and great aerial control, favored by players who specialize in high-flying gameplay.",
+      "pros": [
+        "Great for aerial control",
+        "Unique design"
+      ],
+      "cons": [
+        "Not as fast on the ground",
+        "Can be awkward for certain ground plays"
+      ]
+    },
+    {
+      "name": "Back Fire",
+      "image": "images/backfire.jpg",
+      "description": "The Backfire is an odd looking car with a unique hitbox, favored by players who specialize in hot-wheels.",
+      "pros": [
+        "Great for aerial control",
+        "Interesting design"
+      ],
+      "cons": [
+        "Not as fast on the ground",
+        "Can be awkward for certain ground plays"
+      ]
+    }
+  ]
+  
