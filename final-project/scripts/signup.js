@@ -30,24 +30,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.getElementById("signupForm").addEventListener("submit", function (event) {
-    event.preventDefault();
+// document.getElementById("signupForm").addEventListener("submit", function (event) {
+//     event.preventDefault();
 
-    const name = document.getElementById("firstname").value;
-    localStorage.setItem("userName", name);
+//     const name = document.getElementById("firstname").value;
+//     localStorage.setItem("userName", name);
 
-    document.getElementById("userName").innerText = name;
-    document.getElementById("signupForm").classList.add("hidden");
-    document.getElementById("welcomeMessage").classList.remove("hidden");
-});
+//     document.getElementById("userName").innerText = name;
+//     document.getElementById("signupForm").classList.add("hidden");
+//     document.getElementById("welcomeMessage").classList.remove("hidden");
+// });
 
 
-window.onload = function () {
-    const storedName = localStorage.getItem("userName");
+// window.onload = function () {
+//     const storedName = localStorage.getItem("userName");
 
-    if (storedName) {
-        document.getElementById("userName").innerText = storedName;
-        document.getElementById("signupForm").classList.add("hidden");
-        document.getElementById("welcomeMessage").classList.remove("hidden");
-    }
-};
+//     if (storedName) {
+//         document.getElementById("userName").innerText = storedName;
+//         document.getElementById("signupForm").classList.add("hidden");
+//         document.getElementById("welcomeMessage").classList.remove("hidden");
+//     }
+// };
