@@ -77,6 +77,11 @@ main {
     background-color: var(--background-color);
 }
 
+.active {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
 #backgroundImage {
     display: none;
 }

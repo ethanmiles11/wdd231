@@ -1,17 +1,12 @@
-const currentYear = new Date().getFullYear();
-document.getElementById('currentyear').textContent = currentYear;
+import { setCurrentYear, setLastModifiedDate, setupHamburgerMenu } from './util.js';
 
-const lastModifiedDate = new Date(document.lastModified).toLocaleDateString();
-document.getElementById('lastModified').textContent = `Last edited: ${lastModifiedDate}`;
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize the footer with the current year and last modified date
+  setCurrentYear();
+  setLastModifiedDate();
 
-
-
-const hamButton = document.querySelector("#menu");
-const navigation = document.querySelector("nav");
-
-hamButton.addEventListener("click", function () {
-    navigation.classList.toggle("open");
-    hamButton.classList.toggle("open");
+  // Initialize the hamburger menu functionality
+  setupHamburgerMenu();
 });
 
 

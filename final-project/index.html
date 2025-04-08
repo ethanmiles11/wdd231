@@ -4,24 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rocket Labs - Home</title>
-    <meta name="description" content="Ethan Miles WDD231 Final Project - Rocket Labs website intended as a hub for all things Rocket league. A place to learn, grow, connect with others, and have fun.">
+    <meta name="description" content="Ethan Miles WDD231 Rocket Labs 'Home' page - Rocket Labs site designed to be a hub for all things Rocket league. A place to learn, grow, connect with others, and have fun.">
     <meta name="author" content="Ethan Miles">
     <link rel="icon" href="faviconrl.ico">
     <meta property="og:title" content="Ethan Miles Rocket Labs Home Page">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73206bd9-257c-4f50-b1f3-59a306e24084/dfqp1w8-71e868bb-3c61-4a94-912b-f574485138dc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzczMjA2YmQ5LTI1N2MtNGY1MC1iMWYzLTU5YTMwNmUyNDA4NFwvZGZxcDF3OC03MWU4NjhiYi0zYzYxLTRhOTQtOTEyYi1mNTc0NDg1MTM4ZGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gQuLWyxdKG1uWUeAmSVZ-4_6gQ2vXFQbET3iojaN3A4">
-    <!-- <meta property="og:url" content="https://ethanmiles11.github.io/wdd231/chamber/discover"> -->
+    <meta property="og:url" content="https://ethanmiles11.github.io/wdd231/final-project/index.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small-discover.css" media="screen and (max-width: 640px)">
-    <link rel="stylesheet" href="styles/medium-discover.css" media="screen and (min-width: 641px) and (max-width: 1149px)">
-    <link rel="stylesheet" href="styles/large-discover.css" media="screen and (min-width: 1150px)">
-    <script src="scripts/discover.js" type="module"></script>
+    <link rel="stylesheet" href="styles/index.css" media="screen and (max-width: 974px)">
+    <link rel="stylesheet" href="styles/index-large.css" media="screen and (min-width: 975px)">
+    <script type="module" src="scripts/index.js"></script>
 </head>
 
-<body>
+<body class="background">
+
+    <header class="roboto-regular">
+        <h1>Rocket Labs</h1>
+        <button type="button" id="menu" aria-label="Menu button"></button>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="settings.html">Settings</a>
+            <a href="Tips">Tips</a>
+            <a href="signup.html">Sign up</a>
+            <a href="cars.html">Cars</a>
+        </nav>
+    </header>
+
+    <main class="content">
+
+        <div class="roboto-regular container">
+            <img src="images/phone-background-final.jpg" alt="Rocket League orange fennec at Neo Tokyo"
+                id="backgroundImage">
+            <img src="images/fennec-hero.jpg" alt="Large orange fennec in Neo Tokyo" id="largeHero">
+            <div class="largeOnly">
+                <div id="getStartedDiv">
+                    <p id="getStarted">Your one stop shop for all things ROCKET LEAGUE. Discover new mechanics, gain
+                        invaluable insight into your play, join tournaments and much more.</p>
+                    <a href="signup.html" id="startedButton">Get Started</a>
+                </div>
+                <img src="images/rocket-labs-logo.png" alt="RocketLabs large logo" id="logo">
+            </div>
+        </div>
+
+        <section class="roboto-regular bottomSection">
+            <a href="settings.html" class="bottomLinks">
+                <div class="bottomContainer">
+                    <h2>Settings</h2>
+                    <img src="images/settings-image.jpg" alt="Rocket league settings panel" class="bottomImage" loading="lazy">
+                </div>
+            </a>
+            <a href="tips.html" class="bottomLinks">
+                <div class="bottomContainer">
+                    <h2>Tips</h2>
+                    <img src="images/tips-image.jpg" alt="Two cars; one with a check, one with a red X"
+                        class="bottomImage" loading="lazy">
+                </div>
+            </a>
+            <a href="signup.html" class="bottomLinks">
+                <div class="bottomContainer">
+                    <h2>Sign up</h2>
+                    <img src="images/signup-image.jpg" alt="Multiple cars lunging towards a goal" class="bottomImage" loading="lazy">
+                </div>
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="roboto-regular">
+        <p>&copy;<span id="currentyear"></span> | Ethan Miles | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
     
 </body>
 
