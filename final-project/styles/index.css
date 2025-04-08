@@ -1,0 +1,226 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #FF6600;
+    --background-color: #3f3e3e;
+    --header-color: #0e2d4e;
+    --background2-color: #4b4949;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 350px;
+}
+
+main {
+    background-color: #3f3e3e;
+    max-width: 400px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #0e2d4e;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    padding: 1rem;
+    font-size: 2.3rem;
+}
+
+nav a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+nav a:hover {
+    background-color: #FF6600;
+}
+
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: var(--secondary-color);
+    position: absolute;
+    max-width: 50px;
+    top: 10px;
+    right: 1.5rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "🟧";
+}
+
+#menu.open::after {
+    content: "X";
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: var(--primary-color);
+}
+
+.open a {
+    display: block;
+}
+
+.background {
+    background-color: #3f3e3e;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 1.7rem;
+    color: white;
+}
+
+#largeHero {
+    display: none;
+}
+
+#backgroundImage {
+    display: block;
+    width: 100%;
+    min-width: 320px;
+    opacity: 0.3;
+    position: relative;
+}
+
+.container {
+    position: relative;
+}
+
+.largeOnly {
+    position: relative;
+    top: 0;
+}
+
+#getStartedDiv {
+    position: absolute;
+    top: -500px;
+    height: 500px;
+    text-align: center;
+    min-width: 400px;
+}
+
+
+#getStarted {
+    color: white;
+    max-width: 300px;
+    margin-bottom: 4rem;
+    font-size: 1.75rem;
+}
+
+#startedButton {
+    text-decoration: none;
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 1.75rem;
+    font-weight: 500;
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    background: linear-gradient(to right, #0159b6, #042f5e);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    transition: color 0.3s;
+}
+
+#startedButton::after {
+    content: "";
+    background: linear-gradient(to right, #df5b02, #9c4810);
+    height: 100%;
+    width: 0px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 150ms ease-in-out;
+}
+
+#startedButton:hover::after {
+    width: 100%;
+}
+
+.bottomSection {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.bottomContainer {
+    position: relative;
+    align-items: center;
+    flex-shrink: 1;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(to left, #006ce0, #FF6600);
+}
+
+.bottomLinks:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px #FF6600;
+    border-radius: 10px;
+}
+
+.bottomLinks {
+    text-decoration: none;
+}
+
+.bottomContainer h2 {
+    color: white;
+    display: block;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    margin-top: 0;
+}
+
+
+footer {
+    background-color: #0e2d4e;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}

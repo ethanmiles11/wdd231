@@ -1,0 +1,252 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #FF6600;
+    --background-color: #3f3e3e;
+    --header-color: #0e2d4e;
+    --background2-color: #4b4949;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 350px;
+}
+
+main {
+    background-color: #3f3e3e;
+    max-width: 400px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #0e2d4e;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    padding: 1rem;
+    font-size: 2.3rem;
+}
+
+nav a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+nav a:hover {
+    background-color: #FF6600;
+}
+
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: var(--secondary-color);
+    position: absolute;
+    max-width: 50px;
+    top: 10px;
+    right: 1.5rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "🟧";
+}
+
+#menu.open::after {
+    content: "X";
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: var(--primary-color);
+}
+
+.open a {
+    display: block;
+}
+
+.background {
+    background-color: #3f3e3e;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 1.7rem;
+    color: white;
+}
+
+#bodyP {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+.webForm1 {
+    border: 1px solid black;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.webForm1 label {
+    display: block;
+    padding-top: 1.5rem;
+    margin: 0 0 0 1.3rem;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.webForm1 input[type="text"],
+.webForm1 input[type="tel"],
+.webForm1 input[type="email"],
+.webForm1 input[type="url"] {
+    background-color: #eee;
+    display: block;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 0.65rem;
+    color: black;
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    appearance: none;
+    margin: 0.3rem 0 0 1.3rem;
+    font-size: 1rem;
+}
+
+.webForm1 input:required {
+    border-left: 8px solid #FF6600;
+}
+
+.webForm1 input:required:valid {
+    border-left: 8px solid green;
+}
+
+.submitButt {
+    border: 1px solid black;
+    background: linear-gradient(#FF6600, rgb(216, 54, 5));
+    color: black;
+    border-radius: 5px;
+    padding: .8rem;
+    max-width: 200px;
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+}
+
+.submitButt:hover {
+    background: #07c407;
+    cursor: pointer;
+}
+
+h3 {
+    color: white;
+    margin-top: 3.65rem;
+    display: block;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#arrows {
+    color: white;
+    display: block;
+    letter-spacing: 0.75rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+    margin-top: 0.5rem;
+}
+
+.discordDiv {
+    position: relative;
+    margin-top: 1rem;
+    width: 400px;
+    height: 226px;
+}
+
+#discordBackground {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#discordLogo {
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden {
+    display: none;
+}
+
+#welcomeMessage {
+    border: 1px solid black;
+    background-color: #0e2d4e;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+#welcomeP {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#startedP {
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#startedP a {
+    color: #FF6600;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+footer {
+    background-color: #0e2d4e;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 6rem;
+}

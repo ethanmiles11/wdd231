@@ -1,0 +1,160 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #FF6600;
+    --background-color: #3f3e3e;
+    --header-color: #0e2d4e;
+    --background2-color: #4b4949;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 350px;
+}
+
+main {
+    background-color: #3f3e3e;
+    max-width: 400px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #0e2d4e;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    padding: 1rem;
+    font-size: 2.3rem;
+}
+
+nav a {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 100%;
+    padding: 0.75rem;
+}
+
+nav a:hover {
+    background-color: #FF6600;
+}
+
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: var(--secondary-color);
+    position: absolute;
+    max-width: 50px;
+    top: 10px;
+    right: 1.5rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "🟧";
+}
+
+#menu.open::after {
+    content: "X";
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    color: var(--primary-color);
+}
+
+.open a {
+    display: block;
+}
+
+.background {
+    background-color: #3f3e3e;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-top: 1.7rem;
+    color: white;
+}
+
+#bodyP {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.75rem;
+    color: white;
+    border-top: 1px solid #3692f5;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.iframeDiv {
+    width: 350px;
+    height: 225px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+}
+
+.iframeDiv::after,
+.iframeDiv::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: green;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    padding: 10px;
+    background-image: conic-gradient(#FF6600, #007bff, rgb(250, 235, 235), #FF6600, #007bff, rgb(250, 235, 235), #FF6600);
+}
+
+.iframeDiv::before {
+    filter: blur(1.5rem);
+}
+
+footer {
+    background-color: #0e2d4e;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 6rem;
+}

@@ -1,0 +1,239 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #FF6600;
+    --background-color: #3f3e3e;
+    --header-color: #0e2d4e;
+}
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    max-width: 1920px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--header-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h1 {
+    color: white;
+    font-size: 2.4rem;
+    padding: 1.2rem 1.5rem 0.85rem 2.75rem;
+    letter-spacing: 0.2rem;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.85rem;
+    z-index: 0;
+    position: relative;
+}
+
+nav a::after{
+    content: "";
+    height: 100%;
+    width: 0px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(to right, #FF6600, #006ce0);
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+nav a:hover {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+#menu {
+    display: none;
+}
+
+main {
+    background-color: var(--background-color);
+}
+
+#backgroundImage {
+    display: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    max-height: 800px;
+    padding-top: 41.66%;
+}
+
+#largeHero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.largeOnly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    min-width: 0;
+    min-height: 0;
+    max-width: 500px;
+    max-height: 449px;
+}
+
+#getStartedDiv {
+    width: 600px;
+    max-width: 100%;
+    max-height: 500px;
+    padding: 1rem;
+    border-radius: 10px;
+    min-width: 0;
+    min-height: 0;
+    display: inline;
+}
+
+#getStarted {
+    font-size: 2.3rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    text-align: center;
+    padding: 1rem;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,  
+        -1px  1px 0 black,  
+        1px  1px 0 black;
+}
+
+#startedButton {
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 2.1rem;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 250px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    background: linear-gradient(to right, #a84300, #d35603);
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+#startedButton::after {
+    content: "";
+    background: linear-gradient(to bottom, #006ce0, #02448a);
+    height: 0px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 150ms ease-in-out;
+}
+
+#startedButton:hover::after {
+    height: 100%;
+}
+
+.bottomSection {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.bottomContainer {
+    position: relative;
+    align-items: center;
+    flex-shrink: 1;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(to left, #006ce0, #FF6600);
+}
+
+.bottomImage {
+    min-width: 0;
+    min-height: 0;
+}
+
+.bottomContainer h2 {
+    color: white;
+    display: block;
+    border: 1px solid white;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+}
+
+.bottomLinks {
+    text-decoration: none;
+}
+
+.bottomLinks:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px #FF6600;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #0e2d4e;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
