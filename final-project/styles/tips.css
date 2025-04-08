@@ -37,6 +37,7 @@ h1 {
     color: white;
     padding: 1rem;
     font-size: 2.3rem;
+    margin-top: 0;
 }
 
 nav a {
@@ -76,7 +77,7 @@ nav a:hover {
 #menu.open::after {
     content: "X";
     position: absolute;
-    top: 9px;
+    top: 1px;
     right: 10px;
     color: var(--primary-color);
 }
@@ -118,6 +119,7 @@ h2 {
     padding: 0.7rem;
     font-size: 1.3rem;
     text-align: center;
+    margin: auto;
 }
 
 #rankImage {
@@ -131,7 +133,6 @@ h2 {
     max-width: 60%;
     padding: 0.9rem;
     display: block;
-    margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
     background-color: #007bff;
@@ -139,6 +140,7 @@ h2 {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    margin: 1rem auto;
 }
 
 #tipButton:hover {
@@ -150,7 +152,6 @@ h2 {
     max-width: 70%;
     padding: 0.9rem;
     display: block;
-    margin-top: 1rem;
     font-size: 1.2rem;
     font-weight: 700;
     background-color: #FF6600;
@@ -158,6 +159,7 @@ h2 {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    margin: 1rem auto;
 }
 
 #allTipsButton:hover {
@@ -235,4 +237,8 @@ footer {
     font-size: 1.5rem;
     font-weight: 400;
     margin-top: 6rem;
+}
+
+.no-bullets {
+    list-style-type: none;
 }

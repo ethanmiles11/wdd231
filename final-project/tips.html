@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Labs - Tips</title>
+    <meta name="description" content="Ethan Miles WDD231 Rocket Labs Tips page - Designed to give tips to user based on skill and present training options and resources.">
+    <meta name="author" content="Ethan Miles">
+    <link rel="icon" href="faviconrl.ico">
+    <meta property="og:title" content="Ethan Miles Rocket Labs Tips Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/73206bd9-257c-4f50-b1f3-59a306e24084/dfqp1w8-71e868bb-3c61-4a94-912b-f574485138dc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzczMjA2YmQ5LTI1N2MtNGY1MC1iMWYzLTU5YTMwNmUyNDA4NFwvZGZxcDF3OC03MWU4NjhiYi0zYzYxLTRhOTQtOTEyYi1mNTc0NDg1MTM4ZGMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.gQuLWyxdKG1uWUeAmSVZ-4_6gQ2vXFQbET3iojaN3A4">
+    <!-- <meta property="og:url" content="https://ethanmiles11.github.io/wdd231/chamber/discover"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/tips.css" media="screen and (max-width: 974px)">
+    <link rel="stylesheet" href="styles/tips-large.css" media="screen and (min-width: 975px)">
+    <script type="module" src="scripts/tips.js"></script>
+
+</head>
+
+<body class="background">
+    <header class="roboto-regular">
+        <h1>Rocket Labs</h1>
+        <button type="button" id="menu" aria-label="Menu button"></button>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="settings.html">Settings</a>
+            <a href="tips.html">Tips</a>
+            <a href="signup.html">Sign up</a>
+        </nav>
+    </header>
+
+    <main class="roboto-regular">
+        <h2>Tips Customized for YOU</h2>
+
+        <div class="rankDiv">
+            <label for="skillLevel" id="rankLabel">Select your Rank:</label>
+            <select name="rank" id="skillLevel">
+                <option value="" selected disabled>--Select Rank--</option>
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+                <option value="plat">Plat</option>
+                <option value="diamond">Diamond</option>
+                <option value="champ">Champ</option>
+                <option value="gc">Grand Champ</option>
+                <option value="ssl">SSL</option>
+            </select>
+            <img id="rankImage" src="images/na-logo.png" alt="No Rank selected">
+        </div>
+
+        <button id="tipButton">Get Random Tip</button>
+        <button id="allTipsButton">See all tips for this rank</button>
+
+        <h3>Your Tip:</h3>
+        <p id="output"></p>
+
+        <h4>Training pack codes:</h4>
+        <div>
+            <p class="tipsBottom">-Corrupted V3: AF68-891D-0AD5-19FA</p>
+            <p class="tipsBottom">-The Ultimate Warmup: FA24-B2B7-2E8E-193B</p>
+            <p class="tipsBottom">-#1 shadow defense - Nimbus: 29E9-E595-D6CD-0599</p>
+            <p class="tipsBottom">-Backboard Defense: 99E5-4AA3-60D5-44BD</p>
+            <p class="tipsBottom">-Double Tap Playground: CAFC-FB3E-3C0F-B8F1</p>
+            <p class="tipsBottom">-Backboard Therapy: D7F8-FD53-98D1-DAFE</p>
+        </div>
+
+        <h4>BakkesMod</h4>
+        <p class="tipsBottom">If you don't use BakkesMod to help with your gameplay, you are doing yourself a
+            disservice. BakkesMod provides training plugins, in-game advice, additional training maps and some pretty
+            sick cosmetics!</p>
+        <a href="https://bakkesmod.com/download.php" id="bakkesmod" target="_blank">Download Here</a>
+    </main>
+
+    <footer class="roboto-regular">
+        <p>&copy;<span id="currentyear"></span> | Ethan Miles | Utah, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+{
+    "bronze": {
+      "mechanics": [
+        "Focus on making solid contact with the ball every time. You can practice this in freeplay, just keep trying and get better at hitting the ball directly on to avoid whiffing.",
+        "When hitting the ball, make sure to use your boost to generate more power. Boosting while hitting the ball gives you more speed and force, allowing for stronger shots and clears.",
+        "Focus on staying on the ground for the most part. A lot of Bronze players try to go for aerials too early, but mastering ground control will help you make consistent touches and clear the ball effectively."
+      ],
+      "positioning": [
+        "Always try to position yourself behind the ball. This ensures you're ready to challenge it, whether it's a clear, shot, or pass, and helps prevent you from being out of position.",
+        "After you go for an offensive play, always rotate back to your goal or defensive position. This ensures that you're ready for a quick counterattack and avoids leaving your team open.",
+        "Stay spaced out from teammates to avoid double commits.",
+        "Don’t chase the ball. Wait for the right moment."
+      ],
+      "boostManagement": [
+        "Use small boost pads—they refill faster than you think!",
+        "Avoid using boost when unnecessary; coast when possible.",
+        "Don’t waste all your boost just to hit the ball."
+      ]
+    },
+    "silver": {
+      "mechanics": [
+        "Focus on making solid contact with the ball every time. You can practice this in freeplay, just keep trying and get better at hitting the ball directly on to avoid whiffing.",
+        "When hitting the ball, make sure to use your boost to generate more power. Boosting while hitting the ball gives you more speed and force, allowing for stronger shots and clears.",
+        "Focus on staying on the ground for the most part. A lot of Bronze players try to go for aerials too early, but mastering ground control will help you make consistent touches and clear the ball effectively."
+      ],
+      "positioning": [
+        "Always try to position yourself behind the ball. This ensures you're ready to challenge it, whether it's a clear, shot, or pass, and helps prevent you from being out of position.",
+        "After you go for an offensive play, always rotate back to your goal or defensive position. This ensures that you're ready for a quick counterattack and avoids leaving your team open.",
+        "Stay spaced out from teammates to avoid double commits.",
+        "Don’t chase the ball. Wait for the right moment."
+      ],
+      "boostManagement": [
+        "Use small boost pads—they refill faster than you think!",
+        "Avoid using boost when unnecessary; coast when possible.",
+        "Don’t waste all your boost just to hit the ball."
+      ]
+    },
+    "gold": {
+      "mechanics": [
+        "Focus on making solid contact with the ball every time. You can practice this in freeplay, just keep trying and get better at hitting the ball directly on to avoid whiffing.",
+        "When hitting the ball, make sure to use your boost to generate more power. Boosting while hitting the ball gives you more speed and force, allowing for stronger shots and clears.",
+        "Focus on staying on the ground for the most part. A lot of Bronze players try to go for aerials too early, but mastering ground control will help you make consistent touches and clear the ball effectively.",
+        "Use front flips for faster movement."
+      ],
+      "positioning": [
+        "Always try to position yourself behind the ball. This ensures you're ready to challenge it, whether it's a clear, shot, or pass, and helps prevent you from being out of position.",
+        "After you go for an offensive play, always rotate back to your goal or defensive position. This ensures that you're ready for a quick counterattack and avoids leaving your team open.",
+        "Stay spaced out from teammates to avoid double commits.",
+        "Don’t chase the ball. Wait for the right moment."
+      ],
+      "boostManagement": [
+        "Use small boost pads—they refill faster than you think!",
+        "Avoid using boost when unnecessary; coast when possible.",
+        "Don’t waste all your boost just to hit the ball."
+      ]
+    },
+    "plat": {
+      "mechanics": [
+        "Focus on making solid contact with the ball every time. You can practice this in freeplay, just keep trying and get better at hitting the ball directly on to avoid whiffing.",
+        "When hitting the ball, make sure to use your boost to generate more power. Boosting while hitting the ball gives you more speed and force, allowing for stronger shots and clears.",
+        "Start practicing aerials to contest high balls.",
+        "Learn powerslide for faster recoveries and start trying to recover every time you're bumped. Use bakkesmod maps like Hornets Nest.",
+        "Get comfortable with half-flips for quick turnarounds.",
+        "Use front flips for faster movement.",
+        "Learn basic dribbling to control the ball better."
+      ],
+      "positioning": [
+        "Always try to position yourself behind the ball. This ensures you're ready to challenge it, whether it's a clear, shot, or pass, and helps prevent you from being out of position.",
+        "After you go for an offensive play, always rotate back to your goal or defensive position. This ensures that you're ready for a quick counterattack and avoids leaving your team open.",
+        "Stay spaced out from teammates to avoid double commits.",
+        "Don’t chase the ball. Wait for the right moment.",
+        "Be aware of your last man’s position before pushing up.",
+        "Don’t cut rotation—play smart defense."
+      ],
+      "boostManagement": [
+        "Use small boost pads—they refill faster than you think!",
+        "Avoid using boost when unnecessary; coast when possible.",
+        "Don’t waste all your boost just to hit the ball.",
+        "Rotate out after using boost instead of overcommitting.",
+        "Boost isn’t everything—focus on positioning first."
+      ]
+    },
+    "diamond": {
+      "mechanics": [
+        "When hitting the ball, make sure to use your boost to generate more power. Boosting while hitting the ball gives you more speed and force, allowing for stronger shots and clears.",
+        "Start mastering your aerials through workshop maps and freeplay. Begin to practice air dribbles.",
+        "Learn powerslide for faster recoveries and start trying to recover every time you're bumped. Use bakkesmod maps like Hornets Nest.",
+        "Get comfortable with half-flips for quick turnarounds.",
+        "Use front flips for faster movement.",
+        "Learn basic dribbling to control the ball better.",
+        "Learn wave-dashing for faster recoveries."
+      ],
+      "positioning": [
+        "After you go for an offensive play, always rotate back to your goal or defensive position. This ensures that you're ready for a quick counterattack and avoids leaving your team open.",
+        "Stay spaced out from teammates to avoid double commits.",
+        "Don’t chase the ball. Wait for the right moment.",
+        "Be aware of your last man’s position before pushing up.",
+        "Don’t cut rotation—play smart defense.",
+        "Shadow your opponent to apply smart pressure."
+      ],
+      "boostManagement": [
+        "Use small boost pads—they refill faster than you think!",
+        "Avoid using boost when unnecessary; coast when possible.",
+        "Don’t waste all your boost just to hit the ball.",
+        "Rotate out after using boost instead of overcommitting.",
+        "Boost isn’t everything—focus on positioning first.",
+        "Steal your opponent’s corner boost to limit their options."
+      ]
+    },
+    "champ": {
+      "mechanics": [
+        "Start mastering your aerials through workshop maps and freeplay. Begin to practice air dribbles.",
+        "Learn powerslide for faster recoveries and start trying to recover every time you're bumped. Use bakkesmod maps like Hornets Nest.",
+        "Get comfortable with half-flips for quick turnarounds.",
+        "Learn advanced dribbling to control the ball better. Learn flicks and carries.",
+        "Learn wave-dashing for faster recoveries.",
+        "Learn backboard clears and shadow defense, it is crucial to move beyond champ.",
+        "You MUST learn to speed flip. You will not be able to keep up beyond Champ if you do not.",
+        "Utilize ceiling shots for more advanced plays.",
+        "Learn bounce dribbles to create more threatening attacks."
+      ],
+      "positioning": [
+        "Stay spaced out from teammates to avoid double commits.",
+        "Don’t chase the ball. Wait for the right moment.",
+        "Be aware of your last man’s position before pushing up.",
+        "Don’t cut rotation—play smart defense.",
+        "Shadow your opponent to apply smart pressure.",
+        "Force 50/50s in your favor by approaching at the right angle.",
+        "Control the pace of the game instead of rushing plays."
+      ],
+      "boostManagement": [
+        "Learn small boost pad routing to be able to constantly pickup boost throughout play.",
+        "Avoid using boost when unnecessary; coast when possible.",
+        "Don’t waste all your boost just to hit the ball.",
+        "Rotate out after using boost instead of overcommitting.",
+        "Boost isn’t everything—focus on positioning first.",
+        "Steal your opponent’s corner boost to limit their options.",
+        "Time your boost pickups based on rotations.",
+        "Learn to fake challenges to make opponents waste boost."
+      ]
+    },
+    "gc": {
+      "mechanics": [
+        "Master fast aerials by incorporating quick flips to minimize hang-time.",
+        "Use the flip reset to create unpredictable shots, especially when near the goal.",
+        "Incorporate diagonal flips into your aerials for faster directional changes.",
+        "Anticipate opponent touches and adjust your car's angle for perfect redirects.",
+        "Utilize flip cancels to recover quickly and maintain pressure."
+      ],
+      "positioning": [
+        "Position yourself near the back post to cover both angles for defensive rotations.",
+        "Always be aware of your teammates' positions and rotate accordingly to maintain pressure.",
+        "When attacking, use shadow defense to stay close to the ball while watching for an opponent’s counter.",
+        "Anticipate passes and position yourself in the right spot for quick redirects or follow-ups.",
+        "Look for demos on your rotation through, it is insanely effective."
+      ],
+      "boostManagement": [
+        "Always maintain a balance between collecting small boost pads and saving large ones for key plays.",
+        "Use boost conservatively when you're in position to challenge, saving it for impactful moments like aerials or clears.",
+        "Track boost spawn locations and rotate around them to ensure you're never caught with low boost.",
+        "Avoid over-boosting when recovering; use just enough to get back into position without depleting your supply.",
+        "When on defense, prioritize boost management over chasing the ball to maintain pressure on the counterattack."
+      ]
+    },
+    "ssl": {
+      "mechanics": [
+        "Master fast aerials by incorporating quick flips to minimize hang-time.",
+        "Use the flip reset to create unpredictable shots, especially when near the goal.",
+        "Incorporate diagonal flips into your aerials for faster directional changes.",
+        "Anticipate opponent touches and adjust your car's angle for perfect redirects.",
+        "Utilize flip cancels to recover quickly and maintain pressure."
+      ],
+      "positioning": [
+        "Position yourself near the back post to cover both angles for defensive rotations.",
+        "Always be aware of your teammates' positions and rotate accordingly to maintain pressure.",
+        "When attacking, use shadow defense to stay close to the ball while watching for an opponent’s counter.",
+        "Anticipate passes and position yourself in the right spot for quick redirects or follow-ups.",
+        "Look for demos on your rotation through, it is insanely effective."
+      ],
+      "boostManagement": [
+        "Always maintain a balance between collecting small boost pads and saving large ones for key plays.",
+        "Use boost conservatively when you're in position to challenge, saving it for impactful moments like aerials or clears.",
+        "Track boost spawn locations and rotate around them to ensure you're never caught with low boost.",
+        "Avoid over-boosting when recovering; use just enough to get back into position without depleting your supply.",
+        "When on defense, prioritize boost management over chasing the ball to maintain pressure on the counterattack."
+      ]
+    }
+  }
+  

@@ -245,3 +245,9 @@ footer {
     font-weight: 400;
     margin-top: 6rem;
 }
+
+
+.no-bullets {
+    list-style-type: none;
+}
+  
