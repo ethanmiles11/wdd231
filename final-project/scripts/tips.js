@@ -10,6 +10,25 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const dialog = document.getElementById("rocketDialog");
+  const openDialogBtn = document.getElementById("openDialogBtn");
+  const closeDialogBtn = document.getElementById("closeDialogBtn");
+
+  // Open the dialog when the button is clicked
+  openDialogBtn.addEventListener("click", () => {
+    // .showModal() displays the dialog as a modal window
+    dialog.showModal();
+  });
+
+  // Close the dialog when the close button is clicked
+  closeDialogBtn.addEventListener("click", () => {
+    dialog.close();
+  });
+});
+
+
+
 
 
 

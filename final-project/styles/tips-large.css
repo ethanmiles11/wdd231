@@ -255,4 +255,67 @@ footer {
 .no-bullets {
     list-style-type: none;
 }
+
+.rocket-btn {
+    background-color: #FF6600;
+    border: none;
+    color: black;
+    padding: 0.2rem 0.3rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 4px;
+}
   
+#rocketDialog {
+    width: 500px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+}
+
+.dialog-header {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.dialog-header h2 {
+    margin: 0;
+    font-size: 1.75em;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: #aaa;
+    font-size: 28px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #fff;
+}
+
+.dialog-content {
+    color: white;
+    padding-top: 1.4rem;
+    padding-bottom: 1.5rem;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-size: 1.4rem;
+}
