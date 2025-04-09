@@ -155,4 +155,9 @@
         font-weight: 400;
         margin-top: 6rem;
     }
+
+    .active {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+    }
 }
