@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
 // Fetch the cars data
 async function fetchCarsData() {
     try {

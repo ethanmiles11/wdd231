@@ -10,6 +10,7 @@ export function setCurrentYear() {
     document.getElementById('lastModified').textContent = `Last edited: ${lastModifiedDate}`;
   }
   
+  
   // Toggle the mobile menu
   export function setupHamburgerMenu() {
     const hamButton = document.querySelector("#menu");
